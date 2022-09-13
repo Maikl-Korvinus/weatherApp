@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import "../App.css";
 
 export const Input = ({ setCitiesList }) => {
-  const [inputValue, setInputValue] = useState("empty");
+  const [inputValue, setInputValue] = useState("");
   const inputRef = useRef(null);
 
   const handleOnClick = () => {
